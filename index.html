@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>問い合わせ管理システム</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <h1>問い合わせ管理システム</h1>
+ <p>問い合わせ登録フォーム</p>
+
+<form id="incidentForm" class="form-container">
+
+<label for="incidentTitle">件名</label>
+<input id="incidentTitle" type="text">
+<label for="incidentDetail">詳細</label>
+<textarea id="incidentDetail"></textarea>
+
+<div class="row">
+  <div>
+<label for="category">区分</label>
+<select id="category">
+  <option value="障害">障害</option>
+  <option value="仕様確認">仕様確認</option>
+  <option value="操作方法">操作方法</option>
+  <option value="要望">要望</option>
+</select>
+</div>
+
+<div>
+<label for="priority">優先度</label>
+<select id="priority">
+ <option value="低">低</option>
+ <option value="中">中</option>
+ <option value="高">高</option>
+</select>
+</div>
+</div>
+
+<p id="errorMessage"></p>
+
+<button id="registerButton">問い合わせを登録</button>
+
+</form>
+
+<label>状態絞り込み</label>
+
+<select id="statusFilter">
+  <option value="all">すべて</option>
+  <option value="受付中">受付中</option>
+  <option value="対応中">対応中</option>
+  <option value="完了">完了</option>
+</select>
+
+
+ <p id="ticketCount">一覧表示</p>
+
+<table>
+  <thead>
+   <tr>
+   <th>件名</th>
+   <th>区分</th>
+   <th>優先度</th>
+   <th>状態</th>
+   <th>登録日</th>
+   </tr>
+   </thead>
+   <tbody id="incidentList">
+   </tbody>
+</table>
+
+<div id="detailModal"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
