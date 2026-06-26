@@ -8,11 +8,21 @@
 
 JavaScriptの学習のために、CRUD（Create、Read、Update、Delete）の基本機能を実装しました。  
 
-![トップ画面](images/top1.png)  (images/top2.png)
+### 問い合わせ登録フォーム
+
+![問い合わせ登録フォーム](images/top1.png)
+
+### 問い合わせ一覧
+
+![問い合わせ一覧](images/top2.png)
+
+### 詳細画面（状態変更・削除）
 
 ![詳細画面](images/detail.png)
 
-![状態絞り込み](images/filter.png)  
+### 状態絞り込み
+
+![状態絞り込み](images/filter.png)
 
 
 ## 使用技術
