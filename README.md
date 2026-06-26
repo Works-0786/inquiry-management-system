@@ -8,9 +8,7 @@
 
 JavaScriptの学習のために、CRUD（Create、Read、Update、Delete）の基本機能を実装しました。  
 
-![トップ画面](images/top1.png)  
-
-(images/top2.png)
+![トップ画面](images/top1.png)  (images/top2.png)
 
 ![詳細画面](images/detail.png)
 
