@@ -9,7 +9,7 @@
 JavaScriptの学習のために、CRUD（Create、Read、Update、Delete）の基本機能を実装しました。
 
 ## 使用技術
-HTML
+- HTML
 CSS
 JavaScript
 LocalStorage
